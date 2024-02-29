@@ -115,7 +115,7 @@ func importNewSongs(event watcher.Event) error {
 		Path:          newpath,
 		Recursive:     true,
 		Extension:     "mp3",
-		GenreFromPath: false,
+		GenreFromPath: true,
 	}
 
 	body, err := json.Marshal(ib)
