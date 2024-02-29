@@ -1,0 +1,5 @@
+{
+    "BaseURL": "http://192.168.32.136:8080/api/songs/import",
+    "WatchDir": "/mnt/Ironman/Musicas-MP3",
+    "WatchTimeSec": 5
+}
